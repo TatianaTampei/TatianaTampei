@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cartea cărților</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/logo (1).png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body bgcolor="#e8d0b5" text="2d2d2d" topmargin="20" leftmargin="100" rightmargin="100">
+    <audio autoplay loop src="../muzica/title.mp3" ></audio>
+
+    <table align="center" cellpadding="10">
+        <tr>
+            <td><a href="../index.html">💒 Pagina principală</a></td>
+            <td><a href="carti.html">📚Cărți</a></td>
+            <td><a href="contacte.html">📖Contacte</a></td>
+            <td><a href="autori.html">Autori</a></td>
+        </tr>
+    </table>
+
+    <table align="center" cellpadding="30">
+
+
+        <tr>
+            <td>
+                <ul>
+
+                    <h2>Contacte</h2>
+
+                    <li><b>str.E. Teodoroiu 33A, MD-2059, or.Chișinău</b></li>
+                    <li><b>Telefon: (+373)22 46-80-85</b></li>
+                    <li><b>(+373)22 46-08-16</b></li>
+                    <li><b>Ore de lucru: 8:00 - 16:00</b></li>
+                    <li><b>E-mail: ibs_moldova@hotmail.com</b></li>
+                </ul>
+            </td>
+
+            <td>
+                <iframe
+                    src="https://www.google.ru/maps/place/Strada+Ecaterina+Teodoroiu,+Chi%C8%99in%C4%83u,+Moldova/@47.0533396,28.8422835,134m/data=!3m2!1e3!4b1!4m5!3m4!1s0x40c97d05e1fa0fe5:0xa27f765aa2d6a097!8m2!3d47.0533387!4d28.8428307"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </td>
+        </tr>
+
+    </table>
+
+    <br /><br />
+
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Împrumut interbibliotecar intern</legend>
+            <h2>Descriere publicație</h2>
+
+            <label for="autor"></label>
+            <input type="text" id="autor" placeholder="Autor*" required size="20" maxlenght="20" />
+
+            <label for="titlu"></label>
+            <input type="text" id="titlu" placeholder="Titlu*" required size="20">
+
+            <label for="editura"></label>
+            <select id="editura" placeholder="Editura/Localitate*">
+                <option select>Editura*</option>
+                <option>Dorința</option>
+                <option>Cartier</option>
+                <option>Știința</option>
+            </select>
+
+            <br /><br />
+
+            <label for="an"></label>
+            <input type="text" id="an" placeholder="An*" required size="20" maxlenght="20" />
+
+            <label for="volum"></label>
+            <input type="text" placeholder="Volum*" required size="20" maxlenght="20" />
+
+            <h2>Datele personale</h2>
+
+            <label for="nume"></label>
+            <input type="text" id="an" placeholder="Nume*" required size="20" maxlenght="20" />
+
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Email*" required size="20" maxlenght="20" />
+
+            <label for="ocupația"></label>
+            <input type="text" id="ocupația" placeholder="Ocupația*" required size="20" maxlenght="20" />
+
+            <br /><br />
+
+            <label for="institutia"></label>
+            <input type="text" id="institutia" placeholder="Instituția*" required size="20" maxlenght="20" />
+
+            <label for="localitatea"></label>
+
+            <select id="localitatea" placeholder="Localitatea*">
+                <option select>Localitatea*</option>
+                <option>Chișinău</option>
+                <option>Bălți</option>
+                <option>Comrat</option>
+                <option>Cahul</option>
+            </select>
+
+            <br /> <br />
+
+            <label for="comentarii"></label>
+            <textarea placeholder="Comentarii" id="comentarii" rows="7" cols="30"></textarea>
+
+            <br /><br />
+
+            <font color="#f2309b">*câmpuri obligatorii</font>
+
+            <br /><br />
+
+            <label for="reguli"></label>
+            <input type="checkbox" id="reguli" required />
+            Sunt de acord cu prelucrarea datelor personale conform <font color="#f2309b">Politicilor de Confidențialitate.
+            </font>
+
+            <br />
+
+            <i>
+                Datele din acest formular nu vor fi stocate pe website, sunt total confidențiale.
+            </i>
+
+            <br /> <br />
+
+            <input type="submit" value="Confirmă" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

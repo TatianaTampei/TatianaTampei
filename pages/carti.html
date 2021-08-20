@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cartea cărților</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/logo (1).png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body bgcolor="#e8d0b5" text="2d2d2d" topmargin="20" leftmargin="100" rightmargin="100" align="center">
+
+    <audio autoplay loop src="../muzica/title.mp3" ></audio>
+
+    <table align="center" cellpadding="10">
+        <tr>
+            <td><a href="../index.html">💒 Pagina principală</a></td>
+            <td><a href="carti.html">📚Cărți</a></td>
+            <td><a href="contacte.html">📖Contacte</a></td>
+            <td><a href="autori.html">Autori</a></td>
+        </tr>
+    </table>
+
+
+    <h2 align="center">Cărțile Bibliei</h2>
+    <br /><br />
+
+    <table id="tabel-carti">
+        <capcion><i>Lista cărților Bibliei</i></capcion>
+        
+        <tr>
+            <th>Coperta</th>
+            <th>Denumirea</th>
+            <th>Autorul</th>
+            <th>Disponibil</th>
+        </tr>
+
+        <tr>
+            <td>
+                <img height="100"
+                    src="data:image/jpeg;base64,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" />
+            </td>
+
+            <td id="vechi">Cărțile Vechiului Testament</td>
+            <td><a target="_blank" href="https://www.jw.org/ro/invataturi-biblice/intrebari/moise-scrieri/">
+                    Moise
+                </a>
+                <br/>
+                <a target="_blank" href="https://www.jw.org/ro/biblioteca/carti/relatari-din-biblie/6/iosua-tara-promisa/">
+                    Iosusa
+                    <br/>
+                    <a target="_blank" href="https://www.jw.org/ro/biblioteca/carti/credinta-adevarata/profetul-samuel-a-perseverat/">
+                        Samuel
+                    </a>
+                    <br/>
+                    <a target="_blank" href="https://www.jw.org/ro/invataturi-biblice/copii/personaje-biblice/isaia/">
+                        Isaia
+                        <br/>
+                        <a target="_blank" href="https://www.jw.org/ro/biblioteca/carti/relatari-din-biblie/10/ezra-preda-legea/">
+                            Ezra
+                        </a>
+                        <br/>
+                        <a target="_blank" href="https://www.jw.org/ro/biblioteca/materiale-video/neemia-bucuria-lui-iehova/">
+                           Neemia
+                            <br/>
+                            <a target="_blank" href="https://www.jw.org/ro/biblioteca/materiale-video/neemia-bucuria-lui-iehova/">
+                               Mardoheu
+                            </a>
+                            <br/>
+                            <a target="_blank" href="https://www.jw.org/ro/biblioteca/carti/relatari-din-biblie/7/saul-si-david/">
+                               David
+                </a>
+                <br/>
+                <a target="_blank" href="https://www.jw.org/ro/invataturi-biblice/copii/povestiri-biblice-in-imagini/iehova-ii-da-intelepciune-lui-solomon/">
+                   Solomon
+                </a>
+            </td>
+            <td bgcolor="green"></td>
+        </tr>
+
+        <tr>
+            <td><img height="100" alt=""
+                    src="https://play-lh.googleusercontent.com/UoFFvCoQ1AH3tyyk1YXc4mhXTOTolt9KiuPUsV7xlmgrbefhdoHZMjvzJUo-1kcCQHU" /></td>
+            <td id="Nou">Cărțile Noului Testament</td>
+            <td><a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-matei/">Matei</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-marcu/">Marcu</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-luca/">Luca</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-ioan/">Ioan</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-faptele/">Pavel</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-revelatia/">Ioan</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-iuda/">Iuda</a>
+            <br/>
+            <a href="https://www.jw.org/ro/biblioteca/materiale-video/carti-biblice-introduceri/cartea-2-petru/">Petru</a>
+            <br/>
+
+            </td>
+            <td bgcolor="green"></td>
+        </tr>
+
+        <tr>
+            <td><img height="100" alt="Biblia pentru copii cu ilustrații"
+                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281294427l/8801228.jpg" /></td>
+            <td id="pentru copii">Biblia pentru copii cu ilustrații</td>
+            <br/>
+            <td><a href="https://www.google.com/search?sa=X&sxsrf=ALeKk02WWQuzJDm7NSNp73PiSXJshj9nnQ:1628215579458&source=univ&tbm=isch&q=Borislav+Arapovici&hl=ru&ved=2ahUKEwjy9-vZp5vyAhUUhf0HHT06AuMQjJkEegQIERAC&biw=1366&bih=657">Borislav Arapovici</a>
+                <br/></td>
+                <br/>
+            <td bgcolor="red">
+                <br/>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="4"> 
+                <a href="contacte.html">Împrumut, Biblii gratuite</a> 
+            </th>
+        </tr>
+
+    </table>
+</body>
+
+</html>
